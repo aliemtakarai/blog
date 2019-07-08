@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>Aliem Takarai</title>
+    <link href="" />
+    <link type="application/atom+xml" rel="self" href="/blog/feed.atom" />
+    <updated>2019-07-08T12:59:48+08:00</updated>
+    <id>/blog/feed.atom</id>
+    <author>
+        <name>Aliem Takarai</name>
+    </author>
+                <entry>
+    <id>/blog/hello-world</id>
+    <link type="text/html" rel="alternate" href="/blog/hello-world" />
+    <title>Hello World</title>
+    <published>2017-03-23T08:00:00+08:00</published>
+    <updated>2017-03-23T08:00:00+08:00</updated>
+    <author>
+        <name>Aliem Takarai</name>
+    </author>
+    <summary type="html">Post ini adalah post pertama di blog ini. Sedikit share web ini dibangun dengan jigsaw. Jigsaw ini sendiri adalah framework untuk membuat static site dengan menggunakan template enggine blade, bagi yang familiar dengan blade/laravel tidak akan mengalami......</summary>
+    <content type="html"><![CDATA[
+        <p>Post ini adalah post pertama di blog ini. Sedikit share web ini dibangun dengan <a href="https://jigsaw.tighten.co/">jigsaw</a>. <a href="https://jigsaw.tighten.co/">Jigsaw</a> ini sendiri adalah framework untuk membuat static site dengan menggunakan template enggine blade, bagi yang familiar dengan blade/laravel tidak akan mengalami kesulitas saat menggunakan framework ini karena sama seperti menggunakan view blade pada laravel.</p>
+<p>Alasan saya menggunakan jigsaw ini karena saya sendiri seorang web developer yang menggunakan framework laravel dalam pekerjaan saya jadi saat menggunakan framework ini dalam membuat static site saya tidak menemukan kendala yang bgtu besar.</p>
+<p>Blog ini kedepannya akan berisi update teknologi web terkini dan bagaimana pandangan saya terhadap teknologi sekarang yang lagi panas diperbincangkan dan mungkin ada sedikit curhatan.</p>    ]]></content>
+</entry>
+    </feed>
