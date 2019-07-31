@@ -18,17 +18,14 @@
         <link href="/blog/feed.atom" type="application/atom+xml" rel="alternate" title="Aliem Takarai Atom Feed">
                 
         
-        <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,300i,400,400i,700,700i,800,800i" rel="stylesheet">
-        <link rel="stylesheet" href="/assets/build/css/main.css?id=1bbfb9635d2000927890">
+        <link href="https://unpkg.com/tailwindcss/dist/tailwind.min.css" rel="stylesheet"> <!--Replace with your tailwind.css once created-->
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css" rel="stylesheet">
     </head>
 
-    <body class="flex flex-col justify-between min-h-screen bg-grey-lightest text-grey-darkest leading-normal font-sans">
+    <body class="bg-gray-200 font-sans leading-normal tracking-normal">
         
-
         
-        <main role="main" class="flex-auto w-full container max-w-xl mx-auto py-16 px-6">
             
-                
     <div class="flex justify-center lg:-mx-12 my-12 p-6 md:px-12 bg-grey-lighter border border-grey-light text-sm md:rounded shadow">
     <!-- Begin Mailchimp Signup Form -->
     <div id="mc_embed_signup">
@@ -55,69 +52,37 @@
 
             <div class="flex flex-col md:flex-row md:-mx-6">
                             <div class="w-full md:w-1/2 md:mx-6">
-                    <div class="flex flex-col mb-4">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <div class="rounded overflow-hidden shadow-lg">
-        <div class="px-6 py-4">
-            <div class="font-bold text-xl mb-2">
-                <a
-                        href="/blog/hello-world"
-                        title="Read more - Hello World"
-                        class="text-black font-extrabold"
-                >Hello World</a>
-            </div>
-            <p class="text-gray-700 text-base">
-            <p class="text-grey-darker font-medium my-2">
-                July 8, 2017
-            </p>
-            Post ini adalah post pertama di blog ini. Sedikit share web ini dibangun dengan jigsaw. Jigsaw ini sendiri adalah framework untuk membuat static site dengan menggunakan template enggine blade, bagi...
-            </p>
-        </div>
-        <div class="px-6 py-4">
-
-
-
-        </div>
-    </div>
-</div>
+                    <div class="container px-4 md:px-0 max-w-6xl mx-auto -mt-32">
+			
+        <div class="mx-0 sm:mx-6">
+            <div class="flex flex-wrap justify-between pt-12 -mx-6">
+                <!--1/3 col -->
+                <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
+                    <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow-lg">
+                        <a href="/blog/hello-world" class="flex flex-wrap no-underline hover:no-underline">
+                            <img src="https://source.unsplash.com/collection/225/800x600" class="h-64 w-full rounded-t pb-6">
+                            <p class="w-full text-gray-600 text-xs md:text-sm px-6">July 8, 2017</p>
+                            <div class="w-full font-bold text-xl text-gray-900 px-6">Hello World</div>
+                            <p class="text-gray-800 font-serif text-base px-6 mb-5">
+                                    Post ini adalah post pertama di blog ini. Sedikit share web ini dibangun dengan jigsaw. Jigsaw ini sendiri adalah framework untuk membuat static site dengan menggunakan template enggine blade, bagi...
+                            </p>
+                        </a>
+                    </div>
+                    <div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow-lg p-6">
+                        <div class="flex items-center justify-between">
+                            
+                        </div>
+                    </div>
                 </div>
+            </div>
+        </div>
+    </div>                </div>
 
                                     </div>
 
-                    </main>
-
-        <footer class="bg-white text-center text-sm mt-12 py-4" role="contentinfo">
-            <ul class="flex flex-col md:flex-row justify-center list-reset">
-                <li class="md:mr-2">
-                    &copy; 2019.
-                </li>
-
-                <li>
-                    Built with <a href="http://jigsaw.tighten.co" title="Jigsaw by Tighten">Jigsaw</a>
-                    and <a href="https://tailwindcss.com" title="Tailwind CSS, a utility-first CSS framework">Tailwind CSS</a>.
-                </li>
-            </ul>
-        </footer>
-
-        
+                    
+        <script src="https://unpkg.com/popper.js@1/dist/umd/popper.min.js"></script>
+        <script src="https://unpkg.com/tippy.js@4"></script>
 
             <script src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
     <script>(function($) {
