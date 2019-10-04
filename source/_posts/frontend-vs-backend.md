@@ -2,7 +2,7 @@
 extends: _layouts.post
 section: content
 title: Developer apa kamu?
-date: 2018-09-25
+date: 2019-09-25
 description: backend, forntend, web developer
 cover_image: /assets/img/developer.jpg
 ---

@@ -3,7 +3,7 @@
     <title>Aliem Takarai</title>
     <link href="" />
     <link type="application/atom+xml" rel="self" href="/blog/feed.atom" />
-    <updated>2019-10-04T21:26:16+08:00</updated>
+    <updated>2019-10-04T22:03:06+08:00</updated>
     <id>/blog/feed.atom</id>
     <author>
         <name>Aliem Takarai</name>
@@ -12,8 +12,8 @@
     <id>/blog/php-is-dead</id>
     <link type="text/html" rel="alternate" href="/blog/php-is-dead" />
     <title>PHP Akan Mati?</title>
-    <published>2018-09-28T08:00:00+08:00</published>
-    <updated>2018-09-28T08:00:00+08:00</updated>
+    <published>2019-09-28T08:00:00+08:00</published>
+    <updated>2019-09-28T08:00:00+08:00</updated>
     <author>
         <name>Aliem Takarai</name>
     </author>
@@ -27,8 +27,8 @@
     <id>/blog/frontend-vs-backend</id>
     <link type="text/html" rel="alternate" href="/blog/frontend-vs-backend" />
     <title>Developer apa kamu?</title>
-    <published>2018-09-25T08:00:00+08:00</published>
-    <updated>2018-09-25T08:00:00+08:00</updated>
+    <published>2019-09-25T08:00:00+08:00</published>
+    <updated>2019-09-25T08:00:00+08:00</updated>
     <author>
         <name>Aliem Takarai</name>
     </author>
@@ -50,8 +50,8 @@
     <id>/blog/hello-world</id>
     <link type="text/html" rel="alternate" href="/blog/hello-world" />
     <title>Hello World</title>
-    <published>2018-07-08T08:00:00+08:00</published>
-    <updated>2018-07-08T08:00:00+08:00</updated>
+    <published>2019-07-08T08:00:00+08:00</published>
+    <updated>2019-07-08T08:00:00+08:00</updated>
     <author>
         <name>Aliem Takarai</name>
     </author>

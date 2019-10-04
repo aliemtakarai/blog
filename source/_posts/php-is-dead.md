@@ -2,7 +2,7 @@
 extends: _layouts.post
 section: content
 title: PHP Akan Mati?
-date: 2018-09-28
+date: 2019-09-28
 description: php mati
 cover_image: /assets/img/php.jpg
 ---
