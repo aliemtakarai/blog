@@ -83,7 +83,7 @@
         <script>
             if ('serviceWorker' in navigator) {
                 console.log("Will the service worker register?");
-                navigator.serviceWorker.register('assets/sw.js')
+                navigator.serviceWorker.register('assets/js/sw.js')
                 .then(function(reg){
                     console.log("Yes, it did.");
                 }).catch(function(err) {
