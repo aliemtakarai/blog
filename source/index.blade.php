@@ -23,10 +23,10 @@ pagination:
 @section('body')
     <div>
         <div class="text-center">
-            <img src="/assets/images/photo.jpg" class="h-24 w-24 rounded-full mx-auto">
+            <img src="/assets/images/photo.jpg" alt="aliem takarai" class="h-24 w-24 rounded-full mx-auto">
             <h2 class="text-lg">Aliem Takarai</h2>
             <div class="text-purple-500">Web Developer</div>
-            <div class="text-gray-600">I'am Japan Lovers but <b>NOT VVibu</b></div>
+            <div class="text-gray-600">I'am Web Developer (Backend Developer) not <b>Fullstack Overflow</b></div>
         </div>
     </div>
 
