@@ -18,19 +18,6 @@
         <link href="/blog/feed.atom" type="application/atom+xml" rel="alternate" title="{{ $page->siteName }} Atom Feed">
         @stack('style')
         @stack('meta')
-
-        @if ($page->production)
-            <!-- Global site tag (gtag.js) - Google Analytics -->
-            <script async src="https://www.googletagmanager.com/gtag/js?id=UA-149412594-1"></script>
-            <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-
-            gtag('config', 'UA-149412594-1');
-            </script>
-        @endif
-
         {{-- <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,300i,400,400i,700,700i,800,800i" rel="stylesheet"> --}}
         <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
 
@@ -80,6 +67,15 @@
 
         {{-- <script src="{{ mix('js/main.js', 'assets/build') }}"></script> --}}
         {{-- <script src="/assets/build/js/register.js"></script> --}}
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-149412594-1"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-149412594-1');
+        </script>
         @stack('scripts')
     </body>
 </html>
