@@ -3,7 +3,7 @@
     <title>Aliem Takarai</title>
     <link href="" />
     <link type="application/atom+xml" rel="self" href="/blog/feed.atom" />
-    <updated>2019-10-12T07:03:26+08:00</updated>
+    <updated>2019-10-12T13:40:32+08:00</updated>
     <id>/blog/feed.atom</id>
     <author>
         <name>Aliem Takarai</name>
@@ -21,7 +21,7 @@
     Artikel adalah sedikit curhatan dari saya tentang salah satu bahasa pemograman yang masih populer dan masih banyak diajarkan di beberapa universitas di indonesia yaitu PHP. Alasan saya membahas topik ini adalah karena dibeberapa kesempatan saya......</summary>
     <content type="html"><![CDATA[
         <div style="text-align:justify">
-    Artikel adalah sedikit curhatan dari saya tentang salah satu bahasa pemograman yang masih populer dan masih banyak diajarkan di beberapa universitas di indonesia yaitu PHP. Alasan saya membahas topik ini adalah karena dibeberapa kesempatan saya menjadi pembicara ada yang bertanya "kenapa orang-orang luar sudah meniggalkan PHP", jawaban saya cuma "Anda kurang jauh bermainnya wkwkwk". Salah satu yang saya liat masih lumayan banyak lowongan kerja baik dalam maupun luar negeri masih mencari skill PHP terutama framework <b>Laravel</b> dan <b>Symfony</b>.
+    Artikel adalah sedikit curhatan dari saya tentang salah satu bahasa pemograman yang masih populer dan masih banyak diajarkan di beberapa universitas di indonesia yaitu PHP. Alasan saya membahas topik ini adalah karena dibeberapa kesempatan saya menjadi pembicara ada yang bertanya "kenapa orang-orang luar sudah meniggalkan PHP", jawaban saya cuma "Anda kurang jauh bermainnya wkwkwk". Salah satu yang saya liat masih lumayan banyak lowongan kerja baik dalam maupun luar negeri masih mencari skill PHP terutama framework <b>Laravel</b>, <b>Symfony</b> dan <b>Wordpress</b>.
 </div>
 <div style="text-align:center">
     <img src="/assets/img/php2019.png" alt="php-die-2019"></div>
@@ -38,19 +38,23 @@ Data diatas menunjukan bahwa penggunaan bahasa <i>server side</i> PHP masih sang
     <author>
         <name>Aliem Takarai</name>
     </author>
-    <summary type="html">Artikel saya tulis berdasarkan keresahan saya sebagai seorang web developer, bisa jadi juga menjadi keresahan para web developer diluar sana baik dalam maupun luar negeri tapi bukan luar bumi. Tulisan kali ini mungkin akan membahas scope kerja seorang......</summary>
+    <summary type="html">
+Artikel saya tulis berdasarkan keresahan saya sebagai seorang web developer, bisa jadi juga menjadi keresahan para web developer diluar sana baik dalam maupun luar negeri tapi bukan luar bumi. Tulisan kali ini mungkin akan membahas scope kerja seorang......</summary>
     <content type="html"><![CDATA[
-        <p>Artikel saya tulis berdasarkan keresahan saya sebagai seorang web developer, bisa jadi juga menjadi keresahan para web developer diluar sana baik dalam maupun luar negeri tapi bukan luar bumi. Tulisan kali ini mungkin akan membahas <em>scope</em> kerja seorang <em>frontend developer</em> vs <em>backend developer</em>.</p>
+        <div style="text-align:justify">
+Artikel saya tulis berdasarkan keresahan saya sebagai seorang web developer, bisa jadi juga menjadi keresahan para web developer diluar sana baik dalam maupun luar negeri tapi bukan luar bumi. Tulisan kali ini mungkin akan membahas <i>scope</i> kerja seorang <i>frontend developer</i> vs <i>backend developer</i>.    
+</div>
 <h3>Frontend Developer</h3>
-<p>Posisi ini memerlukan <em>sense of art,</em>posisi ini membutuhkan keahlian HTML, CSS dengan kemapuan pemograman Javascript. Dijaman dulu Frontend dev hanya bergelut dengan HTML dan CSS dengan bumbu sedikit Javascript untuk interaktif tapi sekarang frontend porsinya hampir sama dengan backend. walaupun hanya menampilkan data yang di proses oleh backend dev (Konsumsi API), Frontend dev juga harus meperhitungkan support browser, support device (mobile, desktop, web) kemudian web performance dari sisi clientside sampai tentang SEO.</p>
-<p>Frontend dev jaman now wajib memiliki skill Javascript, karena sekarang adalah trend dimana logic website (backend) di pisahkan dengan tampilannya (frontend). Frontend tidak lagi hanya mendesain tampilan tapi juga memikirkan beberapa aspek selain hanya design.</p>
-<p>Framework Javascript yang populer saat artikel ini di buat adalaah ReactJS dan <strong>VueJS</strong>(ini andalang gue). ReactJS sendiri ada lah produk dari facebook, framework ini terkenal karena mengusung JSX sebagai format penulisan kodenya sehingga yang sudah familiar dengan vanilaJS pasti tidak akan bingun dengan script-script reactJS. VueJS sendiri adalah buatan dari evan you yang dijadikan opensource, framework ini sendiri besar karena dukungan dari komunitasnya. Salah satu andalan dari vueJS ini adalah <em>Reactive Data Binding</em> atau proses sinkronasi antara DOM dan logical</p>
-<p><img src="/assets/img/vue.png" alt="vue" /></p>
+<div style="text-align:justify">Posisi ini memerlukan <i>sense of art</i>, posisi ini membutuhkan keahlian HTML, CSS dengan kemapuan pemograman Javascript. Dijaman dulu Frontend dev hanya bergelut dengan HTML dan CSS dengan bumbu sedikit Javascript untuk interaktif tapi sekarang frontend porsinya hampir sama dengan backend. walaupun hanya menampilkan data yang di proses oleh backend dev (Konsumsi API), Frontend dev juga harus meperhitungkan support browser, support device (mobile, desktop, web) kemudian web performance dari sisi clientside sampai tentang SEO.</div>
+<div style="text-align:justify">Frontend dev jaman now wajib memiliki skill Javascript, karena sekarang adalah trend dimana logic website (backend) di pisahkan dengan tampilannya (frontend). Frontend tidak lagi hanya mendesain tampilan tapi juga memikirkan beberapa aspek selain hanya design.</div>
+<div style="text-align:justify">Framework Javascript yang populer saat artikel ini di buat adalaah ReactJS dan <b>VueJS</b>(ini andalang gue). ReactJS sendiri ada lah produk dari facebook, framework ini terkenal karena mengusung JSX sebagai format penulisan kodenya sehingga yang sudah familiar dengan vanilaJS pasti tidak akan bingun dengan script-script reactJS. VueJS sendiri adalah buatan dari evan you yang dijadikan opensource, framework ini sendiri besar karena dukungan dari komunitasnya. Salah satu andalan dari vueJS ini adalah <i>Reactive Data Binding</i> atau proses sinkronasi antara DOM dan logical</div>
+<div style="text-align:center">
+    <img src="/assets/img/vue.png" alt="vue data binding"></div>
 <h3>Backend Developer</h3>
-<p>Backend developer adalah posisi dibelakang layardari sebuah website/apps. Posisi ini menagani logic/fungsi-fungsi dalam website/apps. Biasanya kalo sudah menerapkan modern development dimana backend dan frontend dipisahkan, backend bertugas untuk membuat service yang dapat di gunakan oleh frontend dev. biasanya service yang dibuat dalam bentuk API. backend bertugas membuat semua logic/fungsi dalam website seperti fungsi login, CRUD dan sebagainya. Posisi ini tidak terlalu butuh <em>sense of art</em> dikarenakan posisi ini tidak bersentuhan langsung dengan tampilan atau view dari sebuah website.</p>
-<p>Beberapa bahasa yang banyak digunakan saat artikel ini ditulis PHP, Go, Java, Python dan beberapa lagi yang tidak sempat saya sebutkan, Kenapa Javascript tidak saya sebutkan ?, karena saya sendiri kurang srek dengan Javascript yang dijadikan sebagai backend.</p>
+<div style="text-align:justify">Backend developer adalah posisi dibelakang layardari sebuah website/apps. Posisi ini menagani logic/fungsi-fungsi dalam website/apps. Biasanya kalo sudah menerapkan modern development dimana backend dan frontend dipisahkan, backend bertugas untuk membuat service yang dapat di gunakan oleh frontend dev. biasanya service yang dibuat dalam bentuk API. backend bertugas membuat semua logic/fungsi dalam website seperti fungsi login, CRUD dan sebagainya. Posisi ini tidak terlalu butuh <i>sense of art</i> dikarenakan posisi ini tidak bersentuhan langsung dengan tampilan atau view dari sebuah website.</div>
+<div style="text-align:justify">Beberapa bahasa yang banyak digunakan saat artikel ini ditulis PHP, Go, Java, Python dan beberapa lagi yang tidak sempat saya sebutkan, Kenapa Javascript tidak saya sebutkan ?, karena saya sendiri kurang srek dengan Javascript yang dijadikan sebagai backend.</div>
 <h3>Kesimpulan</h3>
-<p>Kesimpulan dari pembahasan diatas adalah pembagian job dalam sebuah website, ada juga yang menjalani keduanya, untuk yang menjalani keduanya biasa disebut <strong>fullstack developer</strong>. Saya secara pribadi pernah merasakan menjadi fullstack dev dan itu sangat capek di karenakan kita mengurus/membuat seluruh bagian dari website tersebut curhat dikit (-_-).</p>    ]]></content>
+<div style="text-align:justify">Kesimpulan dari pembahasan diatas adalah pembagian job dalam sebuah website, ada juga yang menjalani keduanya, untuk yang menjalani keduanya biasa disebut <b>fullstack developer</b>. Saya secara pribadi pernah merasakan menjadi fullstack dev dan itu sangat melelahkan di karenakan kita mengurus/membuat seluruh bagian dari website tersebut curhat dikit.</div>    ]]></content>
 </entry>
             <entry>
     <id>/blog/hello-world</id>
@@ -61,10 +65,10 @@ Data diatas menunjukan bahwa penggunaan bahasa <i>server side</i> PHP masih sang
     <author>
         <name>Aliem Takarai</name>
     </author>
-    <summary type="html">Post ini adalah post pertama di blog ini. Sedikit share web ini dibangun dengan jigsaw. Jigsaw ini sendiri adalah framework untuk membuat static site dengan menggunakan template enggine blade, bagi yang familiar dengan blade/laravel tidak akan mengalami......</summary>
+    <summary type="html">Post ini adalah post pertama di blog ini. Sedikit share web ini dibangun dengan Jigsaw ini sendiri adalah framework untuk membuat static site dengan menggunakan template enggine blade, bagi yang familiar dengan blade/laravel tidak akan mengalami......</summary>
     <content type="html"><![CDATA[
-        <p>Post ini adalah post pertama di blog ini. Sedikit share web ini dibangun dengan <a href="https://jigsaw.tighten.co/">jigsaw</a>. <a href="https://jigsaw.tighten.co/">Jigsaw</a> ini sendiri adalah framework untuk membuat static site dengan menggunakan template enggine blade, bagi yang familiar dengan blade/laravel tidak akan mengalami kesulitas saat menggunakan framework ini karena sama seperti menggunakan view blade pada laravel.</p>
-<p>Alasan saya menggunakan jigsaw ini karena saya sendiri seorang web developer yang menggunakan framework laravel dalam pekerjaan saya jadi saat menggunakan framework ini dalam membuat static site saya tidak menemukan kendala yang bgtu besar.</p>
-<p>Blog ini kedepannya akan berisi update teknologi web terkini dan bagaimana pandangan saya terhadap teknologi sekarang yang lagi panas diperbincangkan dan mungkin ada sedikit curhatan.</p>    ]]></content>
+        <div style="text-align:justify">Post ini adalah post pertama di blog ini. Sedikit share web ini dibangun dengan <a href="https://jigsaw.tighten.co/">Jigsaw</a> ini sendiri adalah framework untuk membuat static site dengan menggunakan template enggine blade, bagi yang familiar dengan blade/laravel tidak akan mengalami kesulitas saat menggunakan framework ini karena sama seperti menggunakan view blade pada laravel.</div>
+<div style="text-align:justify">Alasan saya menggunakan jigsaw ini karena saya sendiri seorang web developer yang menggunakan framework laravel dalam pekerjaan saya jadi saat menggunakan framework ini dalam membuat static site saya tidak menemukan kendala yang bgtu besar.</div>
+<div style="text-align:justify">Blog ini kedepannya akan berisi update teknologi web terkini dan bagaimana pandangan saya terhadap teknologi sekarang yang lagi panas diperbincangkan dan mungkin ada sedikit curhatan.</div>    ]]></content>
 </entry>
     </feed>

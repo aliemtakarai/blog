@@ -20,20 +20,19 @@
         @stack('meta')
 
         @if ($page->production)
-            <!-- Insert analytics code here -->
+            <!-- Global site tag (gtag.js) - Google Analytics -->
+            <script async src="https://www.googletagmanager.com/gtag/js?id=UA-149412594-1"></script>
+            <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-149412594-1');
+            </script>
         @endif
 
-        <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,300i,400,400i,700,700i,800,800i" rel="stylesheet">
+        {{-- <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,300i,400,400i,700,700i,800,800i" rel="stylesheet"> --}}
         <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-149412594-1"></script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-
-          gtag('config', 'UA-149412594-1');
-        </script>
 
     </head>
 
@@ -80,17 +79,7 @@
         </footer>
 
         {{-- <script src="{{ mix('js/main.js', 'assets/build') }}"></script> --}}
-        <script>
-            if ('serviceWorker' in navigator) {
-                console.log("Will the service worker register?");
-                navigator.serviceWorker.register('assets/js/components/sw.js')
-                .then(function(reg){
-                    console.log("Yes, it did.");
-                }).catch(function(err) {
-                    console.log("No it didn't. This happened: ", err)
-                });
-            }
-        </script>
+        {{-- <script src="/assets/build/js/register.js"></script> --}}
         @stack('scripts')
     </body>
 </html>

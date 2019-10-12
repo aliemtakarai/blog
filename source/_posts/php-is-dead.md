@@ -7,7 +7,7 @@ description: php mati
 cover_image: /assets/img/php.jpg
 ---
 <div style='text-align:justify'>
-    Artikel adalah sedikit curhatan dari saya tentang salah satu bahasa pemograman yang masih populer dan masih banyak diajarkan di beberapa universitas di indonesia yaitu PHP. Alasan saya membahas topik ini adalah karena dibeberapa kesempatan saya menjadi pembicara ada yang bertanya "kenapa orang-orang luar sudah meniggalkan PHP", jawaban saya cuma "Anda kurang jauh bermainnya wkwkwk". Salah satu yang saya liat masih lumayan banyak lowongan kerja baik dalam maupun luar negeri masih mencari skill PHP terutama framework <b>Laravel</b> dan <b>Symfony</b>.
+    Artikel adalah sedikit curhatan dari saya tentang salah satu bahasa pemograman yang masih populer dan masih banyak diajarkan di beberapa universitas di indonesia yaitu PHP. Alasan saya membahas topik ini adalah karena dibeberapa kesempatan saya menjadi pembicara ada yang bertanya "kenapa orang-orang luar sudah meniggalkan PHP", jawaban saya cuma "Anda kurang jauh bermainnya wkwkwk". Salah satu yang saya liat masih lumayan banyak lowongan kerja baik dalam maupun luar negeri masih mencari skill PHP terutama framework <b>Laravel</b>, <b>Symfony</b> dan <b>Wordpress</b>.
 </div>
 
 <div style='text-align:center'>

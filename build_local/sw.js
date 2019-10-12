@@ -1,8 +1,8 @@
-var CACHE_NAME = 'cache-mws';
+var CACHE_NAME = 'takarai';
 var urlsToCache = [
-  '/css/main.css',
-  'https://fonts.googleapis.com/css?family=Nunito+Sans:300,300i,400,400i,700,700i,800,800i',
-  'https://www.googletagmanager.com/gtag/js?id=UA-149412594-1'
+  '/',
+  '/assets/build/css/main.css',
+  '/assets/images/photo.jpg'
 ];
 
 self.addEventListener('install', function(event) {
@@ -17,7 +17,7 @@ self.addEventListener('install', function(event) {
 });
 self.addEventListener('activate', function(event) {
 
-  var cacheWhitelist = ['cache-mws'];
+  var cacheWhitelist = ['takarai'];
 
   event.waitUntil(
     caches.keys().then(function(cacheNames) {
