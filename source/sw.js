@@ -1,6 +1,5 @@
 var CACHE_NAME = 'takarai';
 var urlsToCache = [
-  '/',
   '/assets/build/css/main.css',
   '/assets/images/photo.jpg'
 ];

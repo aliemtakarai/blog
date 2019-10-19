@@ -66,7 +66,7 @@
         </footer>
 
         {{-- <script src="{{ mix('js/main.js', 'assets/build') }}"></script> --}}
-        {{-- <script src="/assets/build/js/register.js"></script> --}}
+        <script src="/assets/build/js/register.js"></script>
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-149412594-1"></script>
         <script>
